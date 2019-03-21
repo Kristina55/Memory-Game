@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Game</title>
+
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+
+  
+  
+<div class="wrap">
+
+<!-- Start Section-->
+<section id="">
+        <div class="mainPageStart container-fluid"> 
+            <div class="positionText row">
+                <div class="mainText col-sm-12">
+                    <h1> Let's play a game!</h1>
+                </div>
+            </div>
+            <div class="positionButton row">    
+                <div class="mainButton col-sm-12"> 
+                    <a class="myButton"href='#GameSection'>START</a>
+                </div>
+            </div>
+        </div>
+         
+</section>
+
+
+<!-- Game Section-->
+<div id="GameSection">
+  <section class="memoryGame">
+ 
+    <div class="memoryCard" data-name="apple">
+      <img class="front-face" src="img/apple.png" />
+      <img class="back-face" src="img/fruitss.png" />
+    </div>
+    <div class="memoryCard" data-name="apple">
+      <img class="front-face" src="img/apple.png"/>
+      <img class="back-face" src="img/fruitss.png" />
+    </div>
+
+    <div class="memoryCard" data-name="cherry">
+      <img class="front-face" src="img/cherry.png"/>
+      <img class="back-face" src="img/fruitss.png"/>
+    </div>
+    <div class="memoryCard" data-name="cherry">
+      <img class="front-face" src="img/cherry.png" />
+      <img class="back-face" src="img/fruitss.png" />
+    </div>
+
+    <div class="memoryCard" data-name="strawberry">
+      <img class="front-face" src="img/strawberry.png" />
+      <img class="back-face" src="img/fruitss.png"  />
+    </div>
+    <div class="memoryCard" data-name="strawberry">
+      <img class="front-face" src="img/strawberry.png"  />
+      <img class="back-face" src="img/fruitss.png"  />
+    </div>
+
+    <div class="memoryCard" data-name="grape">
+      <img class="front-face" src="img/grape.png"/>
+      <img class="back-face" src="img/fruitss.png"  />
+    </div>
+    <div class="memoryCard" data-name="grape">
+      <img class="front-face" src="img/grape.png" />
+      <img class="back-face" src="img/fruitss.png"  />
+    </div>
+
+    <div class="memoryCard" data-name="watermelon">
+      <img class="front-face" src="img/watermelon.png" />
+      <img class="back-face" src="img/fruitss.png" />
+    </div>
+    <div class="memoryCard" data-name="watermelon">
+      <img class="front-face" src="img/watermelon.png"/>
+      <img class="back-face" src="img/fruitss.png"  />
+    </div>
+
+    <div class="memoryCard" data-name="banana">
+      <img class="front-face" src="img/bananan.png"  />
+      <img class="back-face" src="img/fruitss.png" />
+    </div>
+    <div class="memoryCard" data-name="banana">
+      <img class="front-face" src="img/bananan.png" />
+      <img class="back-face" src="img/fruitss.png"  />
+    </div>
+    <div class="col-sm-12"> 
+            <p id="countClicks" class="GameButton">0</p>
+            <a href="" onClick="refreshPage()"><p id="StartNewGame" class="StartNewGame">START A NEW GAME</p></a>
+            <a href="#StartSection"><p id="BestGame" class="bestGame">Score in storage</p></a>
+     </div>
+</section>
+
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
